@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Libre+Baskerville&display=swap');
+
+
+html {
+  min-width: 100%;
+  height: auto;
+  background-position: top center;
+  background-color: #fff;
+}
+
+.wrapper{
+
+}
+
+h1 {
+	color: #583d81;
+	text-align: left;
+	font-family: 'Big Shoulders Text', cursive; font-size: 2.25em;
+	float:left;
+	margin-bottom: 9px;
+	margin-top: 0px;
+}
+
+
+
+a{
+	background-color:;
+	color: #8a8d8e;
+	font-family: 'Big Shoulders Text', cursive; font-size: 1em;
+	text-align: bottom;
+	padding-top: 19px;
+	text-decoration: none;
+	display: block;
+	float: right;
+	padding-left: 18px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+img {
+   width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+
+.container {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  color: white;
+  top: 80px;
+  padding-left: 10px; 
+  height: auto;
+  font-family: 'Big Shoulders Text', cursive; font-size: 4.5em;
+}
+
+.caption{
+	font-family: 'Libre Baskerville', serif; font-size: .66em;
+	margin-top: 0px;
+}
+
+a:hover {
+	
+	color:#486DC2;
+	font-family: 'Big Shoulders Text', cursive; font-size: 1.125em;
+	background-color:;
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: #fff;
+  width: 30%;
+  margin: 15px;
+  text-align: left;
+  padding:0;
+}
+
+.sub{
+	color: #486DC2;
+  font-family: 'Big Shoulders Text', cursive; font-size: 1.68em;
+  text-align: center;
+}
+
+.body{
+	font-family: 'Libre Baskerville', serif; font-size: .75em; line-height: 1.7em;
+	color:black;
+}
+
+.footer{
+	padding:0;
+	background-color: #848d8c;
+	min-width: 90%;
+    height: 30px;
+  	font-family: 'Big Shoulders Text', cursive; font-size: 1em; line-height: 1.5em;
+  	padding-top: 7px;
+  	padding-left: 20px;
+	color:white;
+}
